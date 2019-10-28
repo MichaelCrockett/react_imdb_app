@@ -1,3 +1,34 @@
 * {
-font-family: Gill Sans;
+  font-family: Gill Sans;
+  background-color: black;
+  color: #DBE9EE;
+  text-decoration:none;
+}
+
+a {
+  background-color: #232020;
+}
+
+.film {
+  margin: 10px;
+  padding: 10px;
+  font-size: 3em;
+  background-color: #232020;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #DBE9EE;
+}
+
+header {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #DBE9EE;
+  margin: 10px;
+  padding: 5px;
+  font-size: 6em;
+  text-align: center;
+}
+
+footer {
+  margin: 10px;
 }
