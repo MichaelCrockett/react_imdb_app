@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 import Film from "./Film";
+import '../App.css';
 
 
 class FilmList extends Component {
   render() {
+
+    const filmNodes = this.props.data.map(film => {
+      return (
+        <Film key={film.id} url={film.url}>
+        {film.name}
+        </Film>
+      );
+    });
+
     return (
       <div className="film-list">
-        <Film name="Taxi Driver">1976</Film>
-        <Film name="Apocalypse Now">1979</Film>
-
+      {filmNodes}
       </div>
     )
   };
