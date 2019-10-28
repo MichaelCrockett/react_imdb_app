@@ -6,7 +6,8 @@ class FilmList extends Component {
   render() {
     return (
       <div className="film-list">
-        I am FilmList
+        <Film />
+        <Film />
       </div>
     )
   };
