@@ -6,8 +6,9 @@ class FilmList extends Component {
   render() {
     return (
       <div className="film-list">
-        <Film />
-        <Film />
+        <Film name="Taxi Driver">1976</Film>
+        <Film name="Apocalypse Now">1979</Film>
+
       </div>
     )
   };
